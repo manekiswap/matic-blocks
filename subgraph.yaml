@@ -1,6 +1,6 @@
 specVersion: 0.0.2
 description: Indexing all Ethereum Block data
-repository: https://github.com/blocklytics/ethereum-blocks
+repository: https://github.com/manekiswap/matic-blocks
 schema:
   file: ./schema.graphql
 dataSources:
@@ -8,7 +8,7 @@ dataSources:
     name: ConverterRegistryContract
     network: matic
     source:
-      address: "0x0ddff327ddf7fe838e3e63d02001ef23ad1ede8e"
+      address: "0x6DE4844cceaDD9D3bDde70dfB87024E96c4c31Bd"
       abi: ConverterRegistryContract
     mapping:
       kind: ethereum/events

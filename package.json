@@ -4,7 +4,7 @@
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy --product hosted-service croccifixio-maneki/matic-blocks"
+    "deploy": "graph deploy --product hosted-service croccifixio-maneki/Maticblocks"
   },
   "dependencies": {
     "@graphprotocol/graph-cli": "0.21.1",
